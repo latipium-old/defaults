@@ -30,4 +30,7 @@
     </frameworkAssemblies>
     <tags>Latipium Development Non-Mod</tags>
   </metadata>
+  <files>
+    <file src="bin/{{ configuration }}/Com.Latipium.Defaults.dll" target="lib/net45" />
+  </files>
 </package>
