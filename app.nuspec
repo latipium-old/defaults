@@ -16,14 +16,18 @@
     <copyright>Copyright (c) 2016 Zach Deibert</copyright>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <dependencies>
-      <dependency id="log4net" version="2.0.5" />
+      <dependency id="Com.Latipium.Defaults.Client" version="1.0" />
+      <dependency id="Com.Latipium.Defaults.Graphics" version="1.0" />
+      <dependency id="Com.Latipium.Defaults.IO" version="1.0" />
+      <dependency id="Com.Latipium.Defaults.Physics" version="1.0" />
+      <dependency id="Com.Latipium.Defaults.Player" version="1.0" />
+      <dependency id="Com.Latipium.Defaults.Server" version="1.0" />
+      <dependency id="Com.Latipium.Defaults.SinglePlayer" version="1.0" />
+      <dependency id="Com.Latipium.Defaults.World" version="1.0" />
     </dependencies>
     <frameworkAssemblies>
       <frameworkAssembly assemblyName="System" />
     </frameworkAssemblies>
     <tags>Latipium Development Non-Mod</tags>
   </metadata>
-  <files>
-    <file src="bin/{{ configuration }}/Com.Latipium.Defaults.dll" target="lib/net45" />
-  </files>
 </package>
